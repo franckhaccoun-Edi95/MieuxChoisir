@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Code-barres stylisé -->
+    <path android:fillColor="#FFFFFF" android:pathData="M34,36h3v36h-3z M40,36h2v36h-2z M45,36h4v36h-4z M52,36h2v36h-2z M57,36h3v36h-3z M63,36h2v36h-2z M68,36h4v36h-4z M74,36h2v36h-2z"/>
+    <!-- Feuille -->
+    <path android:fillColor="#C5E1A5" android:pathData="M66,30c6,-6 14,-6 14,-6s0,8 -6,14c-4,4 -9,4 -9,4s-3,-8 1,-12z"/>
+</vector>
