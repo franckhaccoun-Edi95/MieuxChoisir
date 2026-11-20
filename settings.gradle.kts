@@ -1,3 +1,4 @@
+kotlin
 pluginManagement {
     repositories {
         google()
