@@ -154,10 +154,10 @@ object Recommender {
             .mapNotNull { p ->
                 val n = p.nutrition ?: return@mapNotNull null
                 val improvements = listOf(
-                    n.kcal < ref.kcal,
-                    n.sugars < ref.sugars,
-                    n.fat < ref.fat,
-                    n.proteins > ref.proteins,
+                    (n.kcal < ref.kcal),
+                    (n.sugars < ref.sugars),
+                    (n.fat < ref.fat),
+                    (n.proteins > ref.proteins),
                 ).count { it }
                 val sc = s(n)
                 if (sc > refScore + 0.05 && improvements >= 2) Alternative(p, sc, retailersOf(p)) else null
